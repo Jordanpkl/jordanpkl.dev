@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Nothing Font 5x7';
+  src: url('./fonts/nothing-font-5x7.otf');
+}
+
+@font-face {
+  font-family: 'Roboto Mono Extralight';
+  src: url('./fonts/RobotoMono-ExtraLight.ttf');
+}
+
+.font-NFont5x7 {
+  font-family: 'Nothing Font 5x7';
+}
+
+.font-RobotoMono {
+  font-family: 'Roboto Mono Extralight';
+}
