@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import '@mantine/core/styles.css';
 
-const inter = Inter({ subsets: ["latin"] });
+import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <ColorSchemeScript />
+      </head>
+      <body>
+        <MantineProvider defaultColorScheme="dark">{children}</MantineProvider>
+      </body>
     </html>
   );
 }
