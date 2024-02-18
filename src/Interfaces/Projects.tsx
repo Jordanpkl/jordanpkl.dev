@@ -7,10 +7,10 @@ export const ProjectsInitialVales = {
 
 interface projects {
     label: string,
-    description: string | null,
-    info: string[] | null,
-    old: string[] | null,
-    source: string | null
+    description?: string,
+    info?: string[],
+    old?: string[],
+    source?: string
 }
 
 export interface ProjectsProps {

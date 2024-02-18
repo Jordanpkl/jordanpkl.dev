@@ -10,10 +10,10 @@ export const UsesInitialVales = {
 
 interface devices {
     label: string,
-    description: string | null,
-    urlLabel: string | null,
-    url: string | null,
-    classes: string | null,
+    description?: string,
+    urlLabel?: string,
+    url?: string,
+    classes?: string,
 }
 
 export interface UsesProps {
@@ -21,5 +21,5 @@ export interface UsesProps {
     laptop?: devices[];
     other?: devices[];
     buttons?: Buttons[];
-    software?: { label: string, description: string | null }[];
+    software?: { label: string, description?: string }[];
 }
