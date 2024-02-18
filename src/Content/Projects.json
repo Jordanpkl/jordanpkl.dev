@@ -26,6 +26,14 @@
         },
         {
             "label": "Private project",
+            "description": "2021 - 2022",
+            "info": [
+                "Node.js",
+                "MySQL Database"
+            ]
+        },
+        {
+            "label": "Private project",
             "description": "2016 - 2023",
             "info": [
                 "Static html website"
