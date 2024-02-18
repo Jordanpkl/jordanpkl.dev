@@ -5,7 +5,7 @@
             "description": "2023 - 2024",
             "info": [
                 "Jordanpkl.dev",
-                "Next.js web app"
+                "Next.js Web App"
             ],
             "source": "https://github.com/Jordanpkl/jordanpkl.dev"
         },
@@ -13,17 +13,21 @@
             "label": "Private project",
             "description": "2023 - Now",
             "info": [
-                "Jordanpkl.dev",
-                "Next.js web panel"
+                "Next.js Web Panel",
+                "MySQL Database"
             ]
         },
         {
             "label": "Private project",
-            "description": "2016 - Now",
+            "description": "2023 - Now",
             "info": [
-                "Next.js web app"
-            ],
-            "old": [
+                "Next.js Web App"
+            ]
+        },
+        {
+            "label": "Private project",
+            "description": "2016 - 2023",
+            "info": [
                 "Static html website"
             ]
         }

@@ -1,5 +1,5 @@
 'use client'
-import { Center, Text, Container, Button, Loader, Timeline, Title, Badge } from "@mantine/core";
+import { Center, Text, Container, Button, Loader, Timeline, Badge } from "@mantine/core";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ProjectsInitialVales, ProjectsProps } from "@/Interfaces/Projects";
@@ -30,11 +30,11 @@ export default function Projects() {
                     <Timeline bulletSize={24} color="white" active={(projectsData.projects?.length) - 1}>
                         {projectsData.projects?.map((project, index) => (
                             <Timeline.Item key={index} title={
-                                <Text key={index} fw={700} className="font-NFont5x7">
-                                    {project.label.toUpperCase()}
-                                    {project.description ? <Text span size="sm" className="font-RobotoMono"> {project.description}</Text> : ''}
-                                </Text>
-                            }>
+                                    <Text key={index} fw={700} className="font-NFont5x7">
+                                        {project.label.toUpperCase()}
+                                        {project.description ? <Text span size="sm" className="font-RobotoMono"> {project.description}</Text> : ''}
+                                    </Text>
+                                }>
                                 {project.info?.map((info, index) => (
                                     <Text key={index} c={'dimmed'}>
                                         {info}
