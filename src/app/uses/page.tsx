@@ -18,7 +18,7 @@ export default function Uses() {
         fetchAbout();
     }, [])
     return !fetched ? (
-        <Center mih={'90vh'}>
+        <Center mih={'100vh'}>
             <Loader color="white" size="xl" type="dots" />
         </Center>
     ) : (

@@ -19,12 +19,12 @@ export default function Projects() {
         fetchAbout();
     }, [])
     return !fetched ? (
-        <Center mih={'90vh'}>
+        <Center mih={'100vh'}>
             <Loader color="white" size="xl" type="dots" />
         </Center>
     ) : (
         <>
-            <Center mih={'90vh'}>
+            <Center mih={'100vh'}>
                 <Container className="font-RobotoMono" pt={'5rem'} pb={'5rem'}>
                     <Text className="font-NFont5x7" ta="center" size={'2.5rem'} c={'white'} mb={'1.75rem'}>PROJECTS</Text>
                     <Timeline bulletSize={24} color="white" active={(projectsData.projects?.length) - 1}>
