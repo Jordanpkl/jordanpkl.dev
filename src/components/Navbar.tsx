@@ -26,7 +26,7 @@ export default function Navbar() {
                         </Link>
                     ))}
                 </Group>
-                <UnstyledButton hiddenFrom="xs" onClick={toggle}>
+                <UnstyledButton hiddenFrom="xs" onClick={toggle} mr={'xs'} >
                     <BurgerIcon size={"1.5rem"} />
                 </UnstyledButton>
             </Group>
