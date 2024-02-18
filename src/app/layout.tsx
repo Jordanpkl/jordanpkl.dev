@@ -6,6 +6,7 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { FramerMotion } from "@/components/FramerMotion";
 
 export const metadata: Metadata = {
   title: "Jordanpkl",
@@ -24,7 +25,9 @@ export default function RootLayout({
       <body>
         <MantineProvider defaultColorScheme="dark">
           <Navbar />
-          {children}
+          <FramerMotion>
+            {children}
+          </FramerMotion>
           <Footer />
         </MantineProvider>
       </body>
