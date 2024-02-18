@@ -1,8 +1,6 @@
 import { rem } from '@mantine/core';
+import { CustomIconProps } from '@/Interfaces/CustomIconProps';
 
-interface CustomIconProps extends React.ComponentPropsWithoutRef<'svg'> {
-    size?: number | string;
-}
 
 export function BurgerIcon({ size, style, ...others }: CustomIconProps) {
     return (

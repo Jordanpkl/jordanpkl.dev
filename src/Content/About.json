@@ -1,0 +1,40 @@
+{
+    "about": [
+        "I am {years} years old.",
+        "I speak Polish, English and Spanish.",
+        "I'm a self taught developer.",
+        "Car & truck enthusiast."
+    ],
+    "activities": [
+        "Coding",
+        "Playing games",
+        "Modding games",
+        "🐛 Breaking/Glitching games",
+        "Creating gameservers",
+        "Sim Racing",
+        "Driving"
+    ],
+    "buttons": [
+        {
+            "link": "/uses",
+            "label": "Uses"
+        },
+        {
+            "link": "/projects",
+            "label": "Projects"
+        },
+        {
+            "link": "/contact",
+            "label": "Contact"
+        }
+    ],
+    "skillset": [
+        "Lua",
+        "Javascript",
+        "Typescript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Discord.js"
+    ]
+}
