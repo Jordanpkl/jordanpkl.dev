@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "label": "Portfolio",
+            "description": "2023 - 2024",
+            "info": [
+                "Jordanpkl.dev",
+                "Next.js web app"
+            ],
+            "source": "https://github.com/Jordanpkl/jordanpkl.dev"
+        },
+        {
+            "label": "Private project",
+            "description": "2023 - Now",
+            "info": [
+                "Jordanpkl.dev",
+                "Next.js web panel"
+            ]
+        },
+        {
+            "label": "Private project",
+            "description": "2016 - Now",
+            "info": [
+                "Next.js web app"
+            ],
+            "old": [
+                "Static html website"
+            ]
+        }
+    ],
+    "buttons": [
+        {
+            "link": "/contact",
+            "label": "Contact"
+        }
+    ]
+}
