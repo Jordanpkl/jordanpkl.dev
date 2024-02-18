@@ -1,0 +1,138 @@
+{
+    "computer": [
+        {
+            "label": "Corsair iCUE 4000X",
+            "description": "Black"
+        },
+        {
+            "label": "Intel Core i7-13700K",
+            "description": "3.4GHz"
+        },
+        {
+            "label": "ASUS PRIME Z790-P WIFI"
+        },
+        {
+            "label": "WD BLACK SN770 2TB NVMe SSD"
+        },
+        {
+            "label": "Western Digital Blue 1TB HDD"
+        },
+        {
+            "label": "Western Digital 500GB HDD"
+        },
+        {
+            "label": "GIGABYTE 240GB SSD"
+        },
+        {
+            "label": "Corsair Vengeance RGB DDR5",
+            "description": "6000MHz 2x16GB"
+        },
+        {
+            "label": "Corsair RM750e",
+            "description": "750W 80 Plus Gold Modular"
+        },
+        {
+            "label": "MSI RTX 4070 Ti",
+            "description": "Ventus 3X E1 12GB OC"
+        }
+    ],
+    "laptop": [
+        {
+            "label": "MSI Prestige 15 A10SC 15.6\"",
+            "description": "(i7-10710U/32GB RAM/1TB SSD/GTX 1650)"
+        },
+        {
+            "label": "Sabrent 4-Bay USB SATA Docking Station"
+        },
+        {
+            "label": "Baseus Docking Station USB-C"
+        }
+    ],
+    "other": [
+        {
+            "label": "Samsung SyncMaster 953BW 19\""
+        },
+        {
+            "label": "Samsung T32E310EW 32\""
+        },
+        {
+            "label": "Corsair HS80 RGB Wireless"
+        },
+        {
+            "label": "Corsair Sabre Pro RGB Wireless"
+        },
+        {
+            "label": "Glorious GMMK 2 White",
+            "description": "96% ANSI LAYOUT"
+        },
+        {
+            "label": "Titanwolf Symbol red XXXL",
+            "description": "(1200x400x3mm)"
+        },
+        {
+            "label": "Lenovo Explorer VR Headset"
+        },
+        {
+            "label": "Thrustmaster T300RS GT Edition"
+        },
+        {
+            "label": "Logitech G25 Racing Wheel",
+            "description": "(shifter only in use)"
+        },
+        {
+            "label": "SimMasters USB Adapter",
+            "urlLabel": "simmasters.pl",
+            "url": "https://www.simmasters.pl/index.php/produkt/119/"
+        },
+        {
+            "label": "Nothing Phone (1)",
+            "description": "(256GB/12GB RAM/BLACK)",
+            "classes": "font-NFont5x7"
+        },
+        {
+            "label": "Huawei P20 Lite",
+            "description": "(64GB/4GB RAM/MIDNIGHT BLACK)"
+        }
+    ],
+    "buttons": [
+        {
+            "link": "/projects",
+            "label": "Projects"
+        }
+    ],
+    "software": [
+        {
+            "label": "VSCodium"
+        },
+        {
+            "label": "PostgreSQL"
+        },
+        {
+            "label": "MariaDB/MySQL"
+        },
+        {
+            "label": "DBeaver"
+        },
+        {
+            "label": "HeidiSQL"
+        },
+        {
+            "label": "Postman"
+        },
+        {
+            "label": "Vivaldi Browser"
+        },
+        {
+            "label": "DuckDuckGo Private Browser",
+            "description": "(Beta)"
+        },
+        {
+            "label": "Windows 11",
+            "description": "(11 Pro)"
+        },
+        {
+            "label": "Linux",
+            "description": "(Debian & Ubuntu)"
+        }
+    ]
+}
