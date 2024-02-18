@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ContactProps } from "@/Interfaces/Contact";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 export default function Contact() {
     const [contactData, setContactData] = useState<ContactProps[]>([]);
@@ -22,7 +23,7 @@ export default function Contact() {
             <Loader color="white" size="xl" type="dots" />
         </Center>
     ) : (
-        <>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }}>
             <Center mih={'100vh'}>
                 <Container className="font-RobotoMono" pt={'5rem'} pb={'5rem'}>
                     <Text className="font-NFont5x7" ta="center" size={'2.5rem'} c={'white'} mb={'1rem'}>CONTACT</Text>
@@ -31,6 +32,6 @@ export default function Contact() {
                     ))}
                 </Container>
             </Center>
-        </>
+        </motion.div>
     )
 };

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { UsesInitialVales, UsesProps } from "@/Interfaces/Uses";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 export default function Uses() {
     const [usesData, setUsesData] = useState<UsesProps>(UsesInitialVales);
@@ -22,7 +23,7 @@ export default function Uses() {
             <Loader color="white" size="xl" type="dots" />
         </Center>
     ) : (
-        <>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }}>
             <Center mih={'90vh'}>
                 <Container className="font-RobotoMono" pt={'5rem'} pb={'5rem'}>
                     <Text className="font-NFont5x7" ta="center" size={'2.5rem'} c={'white'} pb={'1rem'}>EQUIPMENT I USE</Text>
@@ -61,21 +62,19 @@ export default function Uses() {
 
                     <Center>
                         {usesData.buttons?.map((button, index) => (
-                            <Button
-                                key={index}
-                                variant="filled"
-                                className="font-NFont5x7 font-normal"
-                                size="compact-md"
-                                mt={'1.25rem'}
-                                mr={'0.5rem'}
-                                ml={'0.5rem'}
-                                color="#fff"
-                                c="black"
-                                component={Link}
-                                href={button.link}
-                            >
-                                {button.label.toUpperCase()}
-                            </Button>
+                            <motion.div key={index} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="mt-5 mx-2">
+                                <Button
+                                    variant="filled"
+                                    className="font-NFont5x7 font-normal"
+                                    size="compact-md"
+                                    color="#fff"
+                                    c="black"
+                                    component={Link}
+                                    href={button.link}
+                                >
+                                    {button.label.toUpperCase()}
+                                </Button>
+                            </motion.div>
                         ))}
                     </Center>
                 </Container>
@@ -90,6 +89,6 @@ export default function Uses() {
                 ))}
             </Container>
             <Container p={'5rem'} />
-        </>
+        </motion.div>
     )
 };
