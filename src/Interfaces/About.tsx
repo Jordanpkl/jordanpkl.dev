@@ -1,3 +1,5 @@
+import { Buttons } from "./Shared";
+
 export const AboutInitialVales = {
     about: [],
     activities: [],
@@ -8,6 +10,6 @@ export const AboutInitialVales = {
 export interface AboutProps {
     about?: string[];
     activities?: string[];
-    buttons?: { link: string, label: string }[];
+    buttons?: Buttons[];
     skillset?: string[];
 }
