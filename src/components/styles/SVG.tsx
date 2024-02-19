@@ -1,7 +1,6 @@
 import { rem } from '@mantine/core';
 import { CustomIconProps } from '@/Interfaces/CustomIconProps';
 
-
 export function BurgerIcon({ size, style, ...others }: CustomIconProps) {
     return (
         <svg

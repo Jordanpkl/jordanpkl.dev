@@ -1,5 +1,5 @@
 'use client'
-import { Center, Text, Container, Loader, Button } from "@mantine/core";
+import { Center, Text, Container, Button } from "@mantine/core";
 import Link from "next/link";
 import { motion } from "framer-motion";
 

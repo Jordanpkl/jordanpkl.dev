@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Group, Text, UnstyledButton, Container } from "@mantine/core"
+import { Box, Group, UnstyledButton, Container } from "@mantine/core"
 import Link from "next/link"
 import { BurgerIcon } from "./styles/SVG"
 import { useDisclosure } from '@mantine/hooks';
