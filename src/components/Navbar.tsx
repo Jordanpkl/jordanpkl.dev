@@ -15,7 +15,7 @@ const links = [
 ]
 
 export default function Navbar() {
-    const [closed, { toggle }] = useDisclosure(false);
+    const [closed, { toggle, close }] = useDisclosure(false);
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <motion.div animate={ closed ? 'open' : 'closed' } variants={{ open: { opacity: 1 }, closed: { opacity: 0 } }} transition={{ duration: 0.1 }}>
                     <Container className="text-center font-nfont5x7" hidden={!closed} hiddenFrom="xs" pt={'sm'}>
                         {links.map((link, index) => (
-                            <Link key={index} href={link.link} className="block p-1">
+                            <Link key={index} href={link.link} onClick={close} className="block p-1">
                                 {link.label.toUpperCase()}
                             </Link>
                         ))}
